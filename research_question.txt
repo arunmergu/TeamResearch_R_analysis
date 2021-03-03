@@ -1,0 +1,30 @@
+Group: Group 18
+
+Question: 
+
+RQ: Is there any correlation between price and horsepower of a car.
+
+Null Hypothesis: There is no correlation between price and horsepower of a car.
+
+Alternative Hypothesis: There is a correlation between price and horsepower of a car.
+
+Dependent variable : price (Interval variable)
+
+Independent variable :  horsepower(Interval variable)
+
+Dataset reference: https://www.kaggle.com/hellbuoy/car-price-prediction
+
+
+'''
+> CarPrice_Assignment <- read.csv("CarPrice_Assignment.csv")
+> View(CarPrice_Assignment)
+> colnames(CarPrice_Assignment)
+ [1] "car_ID"           "symboling"        "CarName"          "fueltype"        
+ [5] "aspiration"       "doornumber"       "carbody"          "drivewheel"      
+ [9] "enginelocation"   "wheelbase"        "carlength"        "carwidth"        
+[13] "carheight"        "curbweight"       "enginetype"       "cylindernumber"  
+[17] "enginesize"       "fuelsystem"       "boreratio"        "stroke"          
+[21] "compressionratio" "horsepower"       "peakrpm"          "citympg"         
+[25] "highwaympg"       "price" 
+
+'''
